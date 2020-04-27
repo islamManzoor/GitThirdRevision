@@ -13,6 +13,7 @@ public class GitRevisionClass {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("https://www.facebook.com/");
+		//find the email box.
 		driver.findElement(By.id("email")).sendKeys("test@test.com");
 	}
 }
